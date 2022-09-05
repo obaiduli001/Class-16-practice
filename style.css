@@ -1,0 +1,130 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: rgb(0, 64, 255);
+}
+.header img{
+width: 160px;
+height: auto;
+}
+.header ul{
+    margin-bottom: 0;
+    text-align: center;
+}
+.header ul li{
+    display: inline-block;
+  margin-left: -5px;
+  
+}
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 30px;
+    display: block;
+  
+    font-size: 20px;
+    line-height: 54px;
+    border-right: 1px solid #ddd;
+    
+}
+
+/* <!-- This is Baner section --> */
+
+.banner {
+    background: url(./img/photo_slideshow.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    height: 502px;
+    padding-bottom: -10px;
+}
+.banner h1 {
+    background-color: rgba(0, 255, 255, 0.571);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 701px;
+    font-size: 54px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.banner h2 {
+    background-color: rgba(244, 240, 6, 0.571);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 554px;
+    font-size: 44px;
+    margin: auto;
+}
+
+.about{
+    background-color: #ddd;
+}
+
+/* <!-- This is service section  -->  */
+.service{
+    background-color: beige;
+}
+
+.service span i{
+         background-color: rgb(75, 98, 202);
+         padding: 20px;
+         font-size: 20px;
+         border-radius: 20px 0;
+         margin-top: 20px;
+         
+     
+}
+
+.service h1{
+    margin: 20px 0;
+}
+
+.service-list{
+    padding: 10px 20px;
+}
+
+
+/* <!-- This is product Section  -->  */
+
+.service-list img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(163, 8, 8, 0.646);
+}
+
+
+.service-list p{
+    font-size: 20px;
+}
+
+
+.product-right{
+    padding-left: 0;
+    text-align: center;
+}
+.product-right h2{
+ 
+    font-size: 50px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+}
+.product-right ul{
+
+}
+.product-right ul li{
+
+    list-style: none;
+    background-color: #ddd;
+    margin: 20px 0;
+    padding: 10px 15px;
+    font-size: 19px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.646);
+}
